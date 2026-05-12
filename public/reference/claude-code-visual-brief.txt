@@ -1,0 +1,49 @@
+你现在继续开发 F:\CC个人简历 项目。
+
+视觉参考图已经放在：
+public/reference/home.png
+public/reference/skills.png
+public/reference/tools.png
+public/reference/experience.png
+public/reference/works.png
+public/reference/contact.png
+public/reference/original-style-reference.png
+
+请读取这些参考图，把后续页面继续做成同一套“手绘社交媒体 APP 截图式简历”风格。
+
+注意：这不是普通手绘简历网页，而是手机 APP 截图感。
+
+视觉规则：
+1. 整体像手机 APP 截图，不像网页。
+2. 保留 PhoneShell 手机壳、顶部刘海、状态栏、底部导航。
+3. 风格是手绘、彩色铅笔、蜡笔、水彩、贴纸、胶带、Y2K 涂鸦、纸张质感。
+4. 页面信息密度要高，但不能乱。
+5. 卡片像社交媒体动态和手绘便签，不要像普通企业官网卡片。
+6. 标签像彩色手绘贴纸，不要像普通按钮。
+7. 每一页都要像同一个 APP 的不同视图。
+8. 不要破坏当前滚动结构：StatusBar 固定，BottomNav 固定，ProfileHeader、TabNav、页面内容在同一个 scroll-area 中滚动。
+9. 不要让 ProfileHeader 或 TabNav 变成 fixed/sticky。
+10. 不要新增局部 overflow-y 滚动容器。
+
+当前页面逻辑：
+首页：我是谁 + 我能解决什么问题
+技能：我具备什么能力
+工具：我会用什么工具生产
+经历：我的能力从哪里来
+作品：我实际能做出什么
+学习：我的教育知识框架怎么建立
+方向：我长期要做什么
+合作：可以找我做什么项目
+岗位：我适合什么线上工作
+联系：怎么联系我
+
+后续重点：
+1. 完善 /services 合作页
+2. 完善 /opportunities 岗位页
+3. 升级 /contact 线上合作联系信息
+4. 完善 /detail/:type/:id 详情页
+
+执行命令时，在 Windows PowerShell 里使用 npm.cmd，不要直接用 npm。
+每次修改后运行：
+npm.cmd run lint
+npm.cmd run build
